@@ -1,5 +1,3 @@
-local QBCore = exports['qb-core']:GetCoreObject()
-
 RegisterServerEvent("inventory:server:OpenInventory", function(_type, inventoryName, exploitableItemsList)
     if _type == "shop" then
         exports['qb-inventory']:CreateShop({
